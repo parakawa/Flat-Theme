@@ -13,3 +13,8 @@
 .clearfix:after {
   clear: both;
 }
+
+.navbar{
+	background-color: #34495E;
+	padding: 1%;
+}
