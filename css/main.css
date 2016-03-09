@@ -30,39 +30,34 @@ body{
 	font-style: none;
 	color: white;
 }/*contenido servicio*/
-.contenidoserv {
-	padding-left: 8%;
-	padding-right: 8%;
-	margin-top: 2%;
+.servicescontenido{
+  padding-bottom: 5%;
+  padding-top: 3%;
 }
-.icons{
-	color: white;
-	font-size: 1.5em;
-	background: grey;
-	border-radius: 20px;
-	text-align: center;
-	padding-top: 5px;
-	margin-top: 7%;
-	margin-right: 4%;
-	width: 40px;
-	height: 40px;
-	float: left;
+.media:hover .icon-md {
+    background-color: black;
+    border-radius: 10%;
 }
-.icons:hover{
-	background-color: black;
-	border-radius: 10%;
+.icon-md {
+    font-size: 36px;
+    height: 68px;
+    width: 68px;
+    line-height: 68px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+  /*  -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;*/
 }
-.contenidoicons{
-	float: left;
-	width: 80%;
-}
-.cajitainf{
-	border-left:3px solid #666666 ;
-	margin-top:2%;
-	margin-bottom: 5%;
+.what{
+  padding-bottom: 2%;
 }
 /*contenido portafolio*/
-
 .cajaimg .item-inner {
   background: #fff;
   border: 1px solid #eee;
@@ -72,6 +67,7 @@ body{
 }
 .cajaimg img {
   width: 100%;
+  height: 250px;
 }
 .cajaimg h5 {
   background: #fff;
