@@ -13,4 +13,138 @@
 .clearfix:after {
   clear: both;
 }
-/*holaaa*/
+body{
+	background-color: #F5F5F5;
+}/*barra verde*/
+.barraverde {
+	width: 100%;
+	height:70px;
+	padding: 2% 8% 10% 8%;
+	background: #2ecc71;
+	color: white;
+}
+.menu{
+	margin-top:5%;
+}
+.menu a{
+	font-style: none;
+	color: white;
+}/*contenido servicio*/
+.contenidoserv {
+	padding-left: 8%;
+	padding-right: 8%;
+	margin-top: 2%;
+}
+.icons{
+	color: white;
+	font-size: 1.5em;
+	background: grey;
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 7%;
+	margin-right: 4%;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.icons:hover{
+	background-color: black;
+	border-radius: 10%;
+}
+.contenidoicons{
+	float: left;
+	width: 80%;
+}
+.cajitainf{
+	border-left:3px solid #666666 ;
+	margin-top:2%;
+	margin-bottom: 5%;
+}
+/*contenido portafolio*/
+
+.cajaimg .item-inner {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 10px 10px 0;
+  margin: 0 20px 20px 0;
+  position: relative;
+}
+.cajaimg img {
+  width: 100%;
+}
+.cajaimg h5 {
+  background: #fff;
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2c3e50;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cajaimg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+}
+.cajaimg .overlay .preview {
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  margin-top: -20px;
+}
+.cajaimg:hover .overlay {
+  opacity: 1;
+}
+/*contenido blog*/
+.contenidoblog {
+	padding-top: 2%;
+}
+.widget {
+    margin-bottom: 30px;
+}
+.blog-item {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+ul.tag-cloud {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.tag-cloud li {
+ 	display: inline-block; 
+    margin: 0 0 2px 0; 
+}
+.blog-content {
+    padding: 20px;
+}
+.entry-meta {
+    margin-bottom: 20px;
+}
+.entry-meta > span {
+    display: inline-block;
+    color: #999;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.entry-meta > span a {
+    color: #999;
+}
+/*contenido contacto*/
+.contenidocontac {
+	padding-top: 5%
+}
