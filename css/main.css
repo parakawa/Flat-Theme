@@ -242,10 +242,10 @@ footer a, .more a {
     text-align: center;
     display: block;
     border-radius: 50%;
-  /*  -webkit-transition: 500ms;
+  -webkit-transition: 500ms;
     -moz-transition: 500ms;
     -o-transition: 500ms;
-    transition: 500ms;*/
+    transition: 500ms;
 }
 .what{
   padding-bottom: 2%;
